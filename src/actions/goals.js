@@ -1,8 +1,7 @@
 import API from "goals-todos-api";
 
-const ADD_GOAL = "ADD_GOAL";
-const REMOVE_GOAL = "REMOVE_GOAL";
-
+export const ADD_GOAL = "ADD_GOAL";
+export const REMOVE_GOAL = "REMOVE_GOAL";
 
 function addGoal (goal) {
     return {
